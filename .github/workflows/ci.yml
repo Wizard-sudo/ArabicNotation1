@@ -1,4 +1,4 @@
-name: doccano CI
+name:ArabicNotation
 
 on: [push, pull_request]
 

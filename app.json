@@ -1,14 +1,14 @@
 {
-    "name": "doccano",
+    "name": "ArabNotation",
     "description": "Open source text annotation tool for machine learning practitioner.",
     "keywords": ["Python", "Machine Learning", "Annotation"],
     "website": "https://doccano.herokuapp.com/",
     "repository": "https://github.com/doccano/doccano",
-    "logo": "https://github.com/doccano/doccano/wiki/images/doccano.png",
+    "logo": "",
     "success_url": "/",
     "env": {
         "ADMIN_USER_NAME": {
-            "description": "The user name for the admin account."
+            "description": "The use."
         },
         "ADMIN_CONTACT_EMAIL": {
             "description": "The contact email address for the admin account."

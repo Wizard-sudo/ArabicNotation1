@@ -3,12 +3,14 @@
 In this tutorial, you will learn how to set up and use the auto-labeling feature. Auto-labeling is a feature that automates labeling using the Web API. This is not required to use doccano, but if you set it up, you will be able to label data more efficiently.
 
 The tutorial is divided into several sections:
+Then list the steps
+1.	Import a dataset.
+2.	Create labels for this project.
+3.	Add members for collaborative work.
+4.	Define a guideline for the work.
+5.	Annotate the dataset.
+6.	Export the dataset.
 
-- Select a Template will give you a starting point to follow the tutorial.
-- Set Request Parameters will teach you how to set parameters required to send a request.
-- Specify Response Mapping will teach you the way to extract the label information from the response.
-- Specify Label Mapping will give you the way to map the extracted labels to the internal labels of doccano.
-- Enable the Feature will show you how to enable the auto-labeling.
 
 In this tutorial, we will show you how to set up auto-labeling using Amazon Comprehend Sentiment Analysis as an example. Therefore, we assume that you have a text classification project in doccano, an AWS account and be able to generate access keys.
 

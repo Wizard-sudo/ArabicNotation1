@@ -1,10 +1,10 @@
 {
-    "name": "doccano",
-    "description": "Open source text annotation tool for machine learning practitioner.",
+    "name": "ArabicNotation",
+    "description": "Text Annotation Tools for Arabic Language.",
     "keywords": ["Python", "Machine Learning", "Annotation"],
     "website": "https://doccano.herokuapp.com/",
-    "repository": "https://w7.pngwing.com/pngs/80/709/png-transparent-android-note-taking-android-blue-text-logo.png",
-    "logo": "https://w7.pngwing.com/pngs/80/709/png-transparent-android-note-taking-android-blue-text-logo.png",
+    "repository": "https://miro.medium.com/max/1400/1*6QLSW5ny7Gdq1WXdVxep5Q.png",
+    "logo": "https://www.univ-chief.dz/uc/wp-content/uploads/2016/11/Logo-UHBC-GO-final.png ",
     "success_url": "/",
     "env": {
         "ADMIN_USER_NAME": {

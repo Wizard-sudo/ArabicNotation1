@@ -36,7 +36,7 @@ python manage.py runserver
 
 Go to login page:
 
-![image](../images/oauth/login_page.png)
+![image](https://www.univ-chief.dz/uc/wp-content/uploads/2016/11/Logo-UHBC-GO-final.png )
 
 # Okta
 
@@ -55,7 +55,7 @@ export OAUTH_OKTA_OAUTH2_API_URL=YOUR_BASE_URL
 In the app settings, please set the redirect URI to `{DOCCANO_URL}/social/complete/okta-oauth2/`. For example, if you are serving Doccano at `https://example.com`, the redirect URI should be `https://example.com/social/complete/okta-oauth2/`. If using a local installation being served at port 8000, set the redirect URI to `http://127.0.0.1:8000/social/complete/okta-oauth2/`.
 
 Okta Application setup:
-![image](../images/oauth/okta_oauth_app.png)
+![image](https://www.univ-chief.dz/uc/wp-content/uploads/2016/11/Logo-UHBC-GO-final.png )
 
 Optionally, if you want to assign Doccano super users from Okta users, you can use Okta groups to assign them the policy. This will also assign the users the staff role, allowing them to access the Django admin page and app. Ensure your Okta [authorization server can serve `groups` claims](https://developer.okta.com/docs/guides/customize-tokens-returned-from-okta/add-groups-claim-org-as/) and set the environment variable `OKTA_OAUTH2_ADMIN_GROUP_NAME`.
 
@@ -88,4 +88,4 @@ python manage.py runserver
 ```
 
 If everything has been setup correctly, you should see a login page like the one below with an option to login using Okta.
-![image](../images/oauth/okta_oauth_login_page.png)
+![image](https://www.univ-chief.dz/uc/wp-content/uploads/2016/11/Logo-UHBC-GO-final.png )

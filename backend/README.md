@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/doccano/doccano/master/docs/images/logo/doccano.png">
+  <img src="https://miro.medium.com/max/1400/1*6QLSW5ny7Gdq1WXdVxep5Q.png">
 </div>
 
 # doccano
@@ -10,7 +10,7 @@ doccano is an open source text annotation tool for humans. It provides annotatio
 
 You can try the [annotation demo](http://doccano.herokuapp.com).
 
-![Demo image](https://raw.githubusercontent.com/doccano/doccano/master/docs/images/demo/demo.gif)
+![Demo image](https://miro.medium.com/max/1400/1*6QLSW5ny7Gdq1WXdVxep5Q.png)
 
 ## Features
 
@@ -81,12 +81,10 @@ Here are some tips might be helpful. [How to Contribute to Doccano Project](http
   url={https://github.com/doccano/doccano},
   note={Software available from https://github.com/doccano/doccano},
   author={
-    Hiroki Nakayama and
-    Takahiro Kubo and
-    Junya Kamura and
-    Yasufumi Taniguchi and
-    Xu Liang},
-  year={2018},
+  Benlakehal Mohamed Younes.
+  Nedjmaoui Mahmoud.
+},
+  year={© 2022 ArabNotation},
 }
 ```
 

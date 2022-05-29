@@ -16,7 +16,7 @@ In this tutorial, we will show you how to set up auto-labeling using Amazon Comp
 
 First, move to the "settings" page and open "Auto Labeling" tab. The new tab should display a "Create" button and an empty table. Click the button and select "Amazon Comprehend Sentiment Analysis" from the dropdown menu:
 
-![](../images/auto-labeling/select_template.png)
+![](https://www.univ-chief.dz/uc/wp-content/uploads/2016/11/Logo-UHBC-GO-final.png )
 
 ## Set Request Parameters
 
@@ -29,11 +29,11 @@ Next, you need to set parameters to send an API request. In the case of Amazon C
 
 In the following example, we set `us-west-2` as a `region_name` and `en` as a `language_code`:
 
-![](../images/auto-labeling/set_parameters.png)
+![](https://www.univ-chief.dz/uc/wp-content/uploads/2016/11/Logo-UHBC-GO-final.png )
 
 Then, we will test them using the sample text to make sure whether the parameters are set correctly or not. In this case, we set "I like you" as a sample text and be able to get the response from Amazon Comprehend Sentiment Analysis. If you look at the Sentiment field in the response, you will see that its value is POSITIVE:
 
-![](../images/auto-labeling/test_parameters.png)
+![](https://www.univ-chief.dz/uc/wp-content/uploads/2016/11/Logo-UHBC-GO-final.png )
 
 ## Specify Response Mapping
 
@@ -62,7 +62,7 @@ In the case of Amazon Comprehend Sentiment Analysis, we want to get `Sentiment` 
 
 After setting the template, we will test them using the sample response. This response is the same one we fetched in the `Set Request Parameters` section.
 
-![](../images/auto-labeling/test_mapping_template.png)
+![](https://www.univ-chief.dz/uc/wp-content/uploads/2016/11/Logo-UHBC-GO-final.png )
 
 ## Specify Label Mapping
 
@@ -70,7 +70,7 @@ Once you specify the mapping template, you need to convert the label in the resp
 
 Click the `Add` button and fill in the `From` and `To` fields. `From` means the response label string. In this case, we can specify `POSITIVE`. `To` means the label of this project. In this case, we specify `positive`:
 
-![](../images/auto-labeling/add_label_mapping.png)
+![](https://www.univ-chief.dz/uc/wp-content/uploads/2016/11/Logo-UHBC-GO-final.png )
 
 After adding the label mapping, we will test them using the sample response:
 
@@ -80,6 +80,6 @@ After adding the label mapping, we will test them using the sample response:
 
 Finally, move to the "annotation" page and click "Auto Labeling" button. It should display a "Slide" button for switching enable/disable auto-labeling feature. Try to enable it:
 
-![](../images/auto-labeling/enable.png)
+![](https://www.univ-chief.dz/uc/wp-content/uploads/2016/11/Logo-UHBC-GO-final.png )
 
 Each time you view a new document, it will be labeled automatically.
